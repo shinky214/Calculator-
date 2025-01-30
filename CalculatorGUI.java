@@ -68,7 +68,7 @@ public class CalculatorGUI {
                             return;
                         }
                         break;
-                }
+                } // shinky214
                 textField.setText(String.valueOf(result));
                 operator = null;
             } else if (command.charAt(0) == 'C') {
@@ -81,8 +81,8 @@ public class CalculatorGUI {
                     operator = command;
                     textField.setText("");
                 } else {
-                    textField.setText(textField.getText() + command);
-                }
+                    textField.setText(textField.getText() + command); 
+                }//i did this work alone
             }
         }
     }
